@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body{
+    font-family: 'Oswald', sans-serif;;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.menu-bar{
+    background-color: rgb(125, 167, 235);
+}
+
+.menu-bar-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.contact-header .heading{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.sub-text{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sub-text h3{
+    font-size: 1.5rem;
+}
+
+.sub-text p{
+    color: #7A7A7A;
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 2;
+
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7A7A7A;
+    border-radius: 3px;
+    background: transparent;
+    margin-bottom: 2rem;
+}
+
+textarea{
+    width: 100%;
+    height: 170px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #7A7A7A;
+    margin-bottom: 1.5rem;
+    border-radius: 3px;
+}
+
+
+.btn-primary{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+}
+
+.footer{
+    background-color: rgb(125, 167, 235);
+    padding: 20px;
+}
+
+.social-icons img{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+@media (min-width: 1023px) {
+    .container {
+        width: 960px;
+        margin: auto;
+    }
+
+    .menu-bar-links-item{
+        list-style-type: none;
+    }
+
+    .menu-bar-links-item a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .menu-bar-links-item li{
+        display: inline;
+        padding: 15px;
+    }
+
+    .black{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-primary{
+        padding: 0.8rem 2.2rem;
+        margin-bottom: 20px;
+    }
+
+    input{
+        padding: 15px;
+    }
+
+    .form-container,
+    .sub-text{
+        width: 600px;
+        margin: auto;
+    }
+
+    .sub-text{
+        margin-bottom: 2rem;
+    }
+
+    .social-icons img{
+        margin-right: 15px;
+    }
+
+}
