@@ -34,6 +34,21 @@ img{
     width: 100%;
 }
 
+.hover-text p{
+    position: absolute;
+    font-size: 1.3rem;
+}
+
+.post-card{
+    background-color: violet;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+
+.img-cont{
+    width: 200px;
+}
+
 .footer{
     background-color: rgb(125, 167, 235);
     padding: 20px;
