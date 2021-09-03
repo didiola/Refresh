@@ -1,0 +1,30 @@
+.footer{
+    background-color: var(--primary-color);
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+}
+
+.footer .container {
+    height: 100%;
+}
+
+.social-icons img{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .social-icons img{
+        margin-right: 15px;
+    }
+}
