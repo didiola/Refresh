@@ -3,9 +3,14 @@
 @import "./footer.css";
 @import "./button.css";
 
+.container{
+    height: 100%;
+}
+
 .image-container{
     background: url('../Images/Pexels.jpg') no-repeat center center / cover;
     height: 300px;
+    display: flex;
 }
 
 .post-card {
@@ -45,12 +50,11 @@ main{
 
 .sub-text{
     font-size: 18px;
-    color: #868686;
+    color: #7A7A7A;
     margin-bottom: 10px;
 }
 
 .subscribe-container{
-    background-color: #ccc;
     padding:  25px 15px;
 }
 
@@ -69,6 +73,15 @@ input {
     border: 1px solid #ccc;
 }
 
+.hover-text{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 23px;
+    color: rgb(67, 0, 44);
+}
+
 
 
 
@@ -82,5 +95,22 @@ input {
 @media (min-width: 1024px) {
     .blog-post-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .image-container{
+        height: 500px;
+    }
+
+    .hover-text{
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .divider{
+        width: 100%;
+        height: 3px;
+        border-top: 1px #ccc solid;
+        margin: 30px 0;
     }
 }

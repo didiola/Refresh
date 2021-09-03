@@ -8,7 +8,7 @@ header {
 }
 
 .nav-brand img {
-    width: 40px;
+    width: 80px;
 }
 
 .nav-menu ul {
@@ -42,7 +42,7 @@ header {
     }
 
     .nav-brand img {
-        width: 25px;
+        width: 100px;
     }
 
     .nav-menu ul li a {
