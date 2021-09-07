@@ -89,6 +89,10 @@ input {
     .blog-post-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    .subscribe-container{
+        width: 400px;
+        margin: auto;
+    }
 }
 
 
