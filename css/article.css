@@ -21,6 +21,11 @@ main{
     margin-top: 2rem;
 }
 
+.image-container{
+    width: 90%;
+    margin: auto;
+}
+
 .hamburger{
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -78,9 +83,7 @@ textarea{
 
 @media (min-width: 768px) {
     .image-container{
-        width: 700px;
-        height: 700px;
-        margin: auto;
+        width: 60%;
     }
     .heading h3{
         font-size: 2.5rem;
@@ -88,7 +91,8 @@ textarea{
     }
 
     .post-text_container p{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
+        line-height: 1.7;
     }
 
     .half-input{
