@@ -41,6 +41,10 @@ header {
         margin-left: auto;
     }
 
+    .nav-brand{
+        margin-top: 10px;
+    }
+
     .nav-brand img {
         width: 100px;
     }

@@ -19,6 +19,11 @@ main{
 
 .post-text_container{
     margin-top: 2rem;
+    color: #7A7A7A;
+}
+
+.element-icon{
+    padding: 0 5px 0 0;
 }
 
 .image-container{
@@ -81,9 +86,21 @@ textarea{
     justify-content: flex-end;
 }
 
+.nxt a,
+.prev a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.nxt a:hover,
+.prev a:hover{
+    text-decoration: underline;
+}
+
 @media (min-width: 768px) {
     .image-container{
-        width: 60%;
+        width: 960px;
     }
     .heading h3{
         font-size: 2.5rem;
@@ -91,11 +108,11 @@ textarea{
     }
 
     .post-text_container p{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         line-height: 1.7;
     }
 
     .half-input{
-        width: 350px;
+        width: 50%;
     }
 }
