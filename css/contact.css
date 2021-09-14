@@ -3,6 +3,10 @@
 @import "./footer.css";
 @import "./button.css";
 
+.contact-header{
+    margin-top: 2rem;
+}
+
 .contact-header .heading{
     display: flex;
     justify-content: center;
@@ -43,7 +47,7 @@ input{
     border: 1px solid #7A7A7A;
     border-radius: 3px;
     background: transparent;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 textarea{
@@ -53,7 +57,7 @@ textarea{
     padding: 10px;
     background: transparent;
     border: 1px solid #7A7A7A;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     border-radius: 3px;
 }
 
@@ -63,6 +67,10 @@ main{
 
 
 @media (min-width: 1023px) {
+
+    .contact-header{
+        margin-top: 3rem;
+    }
 
     .black{
         display: flex;
