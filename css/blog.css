@@ -14,17 +14,23 @@
 }
 
 .post-card {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
 
 .post-card_thumbnail {
-    height: 300px;
+    height: 235px;
 }
 
 .post-card_thumbnail img {
     height: 100%;
     border-radius: 10px 10px 0px 0px;
+}
+
+.description{
+    height: 100px;
 }
 
 .post-card_body {
