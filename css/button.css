@@ -1,5 +1,5 @@
 .btn {
-    padding: 15px 25px;
+    padding: 5px 15px;
     border: none;
     display: inline-block;
     border-radius: 5px;
@@ -11,4 +11,14 @@
 .btn-primary {
     background-color: black;
     color: #fff;
+}
+
+.btn-default{
+    padding: 15px 25px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-decoration: none;
 }
