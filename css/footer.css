@@ -2,7 +2,7 @@
     background-color: var(--primary-color);
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 70px;
     position: fixed;
 }
 
@@ -10,10 +10,10 @@
     height: 100%;
 }
 
-.social-icons img{
-    width: 20px;
-    height: 20px;
-    padding: 10px;
+.social-icons a {
+    font-size: 20px;
+    padding: 8px;
+    color: #fff;
 }
 
 .social-icons{
@@ -23,8 +23,18 @@
     height: 100%;
 }
 
+.copyright a{
+    font-size: 8px;
+    color: #fff;
+}
+
 @media (min-width: 768px) {
-    .social-icons img{
+    .social-icons a {
         margin-right: 15px;
+        font-size: 25px;
+    }
+
+    .copyright a{
+        font-size: 12px;
     }
 }
